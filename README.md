@@ -1,14 +1,18 @@
 # MAD-EXP-7-Develop an android application to display the place name with image using list view in android studio.
-AIM:
+
+## AIM:
+
 To create and develop the application to display the place name with image using list view in android studio.
 
-EQUIPMENTS REQUIRED:
+## EQUIPMENTS REQUIRED:
+
 Android Studio(Latest Version)
 
-ALGORITHM:
+## ALGORITHM:
+
 Step 1: Open Android Studio and then click on File -> New -> New project.
 
-Step 2: Then type the Application name as “listview″ and click Next.
+Step 2: Then type the Application name as “listview″ and click Next. 
 
 Step 3: Then select the Minimum SDK as shown below and click Next.
 
@@ -20,14 +24,16 @@ Step 6: Get contacts details and Display details give in MainActivity file.
 
 Step 7: Save and run the application.
 
-PROGRAM:
+## PROGRAM:
+```
 /*
 Program to print the list of item.
 Developed by: N.SIDDARTHAN
 Registration Number : 212221040154
 */
+```
 activity_main.xml :
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -46,8 +52,9 @@ activity_main.xml :
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+```
 mylist.xml :
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -93,8 +100,9 @@ mylist.xml :
 
         </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
+```
 MainActivity.java :
-
+```
 package com.example.listview;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -156,8 +164,9 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
+```
 MyListAdapter.java :
-
+```
 package com.example.listview;
 
 import android.app.Activity;
@@ -193,8 +202,11 @@ public class MyListAdapter extends ArrayAdapter<String> {
         return rowView;
     };
 }
-OUTPUT
-image image
+```
+## OUTPUT
 
-RESULT
+![image](https://github.com/Siddarthan999/MAD-EXP-7-Develop-an-android-application-to-Display-the-Place-Name-with-Image-using-List-View/assets/91734840/ea612c18-b656-40b6-985d-bec2467b6006)
+![image](https://github.com/Siddarthan999/MAD-EXP-7-Develop-an-android-application-to-Display-the-Place-Name-with-Image-using-List-View/assets/91734840/2bdefdcc-985a-40c6-bbe3-ce23c320d626)
+
+## RESULT
 Thus, a Simple Android Application to create and develop the application to display the place name with image using list view in android studio is developed and executed successfully.
